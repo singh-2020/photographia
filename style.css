@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+.heading{
+    margin-left: 40%;
+    margin-top: 3%;
+}
+.heading1{
+    font-weight: lighter;
+}
+.client{
+    margin-left: -6%;
+    margin-top: 3%;
+}
+.reviews{
+    margin-top: 3%;
+    padding: 40px 0;
+    background : linear-gradient(90deg,rgb(124, 191, 124),rgb(104, 186, 230),rgb(227, 95, 219),rgb(180, 111, 59),rgba(212, 203, 78, 0.558));
+    color:#434343 ;
+    text-align: center;
+    max-height: 300px;
+   
+}
+.inner{
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column{
+    flex: 33%;
+    max-width: 33%;
+    box-sizing: border-box;
+    padding: 15px;
+    
+}
+
+.review{
+    background: #fff;
+    padding: 30px;
+    border-style:initial;
+    border-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    height: 290px;
+}
+
+.review img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: -80%;
+}
+
+.name{
+    font-size: 20px;
+    font-weight:bold;
+    text-transform: uppercase;
+    margin: -45px 0;
+    margin-left: 17%;
+    color: blueviolet;
+}
+.occup{
+    margin: 50px 0;
+    font-size: small;
+}
+.review p{ 
+    margin-top: 4%;
+}
+.stars{
+    margin-top: -23%;
+    margin-bottom: 20%;
+    color: rgb(211, 138, 3);
+}
+
+@media screen and (min-width:700px) {
+.column{
+    flex: 10%;
+    min-width:10%;
+}
+}
