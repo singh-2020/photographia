@@ -19,8 +19,9 @@
 .reviews{
     margin-top: 3%;
     margin-left: 20%;
+    margin-block-end:inherit;
     padding: 40px 0;
-    background : linear-gradient(90deg,rgb(124, 191, 124),rgb(104, 186, 230),rgb(227, 95, 219),rgb(180, 111, 59),rgba(212, 203, 78, 0.558));
+    background : linear-gradient(90deg,rgb(197, 227, 197),rgb(163, 198, 216),rgb(231, 176, 229),rgb(235, 201, 174),rgba(215, 210, 143, 0.558));
     color:#434343 ;
     text-align: center;
     max-height: 300px;
@@ -62,15 +63,15 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    margin-left: -140%;
-    margin-top: -40%;
+    margin-left: -105%;
+    margin-top: 35%;
 }
 
 .name{
     font-size: 20px;
     font-weight:bold;
     text-transform: uppercase;
-    margin: -55px 0;
+    margin: -55px 0px;
     color: blueviolet;
 }
 .occup{
@@ -79,19 +80,23 @@
     font-size: small;
 }
 .review p{ 
-    margin-top: -2%;
-    min-width: 200px;
+    margin-top: 10%;
+    min-width: 250px;
     margin-left: -20%;
 }
 .stars{
-    margin-top: -23%;
-    margin-bottom: 20%;
+    margin-top: -25%;
+    margin-left: -85%;
     color: rgb(211, 138, 3);
 }
 
-@media screen and (min-width:700px) {
+@media only screen and (max-width:465px) {
 .column{
     flex: 10%;
     min-width:10%;
 }
+.heading1{
+    visibility: visible;
+}
+
 }
